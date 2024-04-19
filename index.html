@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<section class="clock"></section>
+		<section class="slider">
+			<div class="slides-wrapper">
+				<div class="wrapper">
+					<div class="slide">
+						<img src="assets/img/img1.jpg" alt="" />
+						<div>
+							<h3>slide 1</h3>
+
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Similique quo aut fugiat quod aperiam! Saepe enim itaque omnis
+								debitis eligendi maxime accusantium sit minus aut labore eaque,
+								incidunt optio explicabo.
+							</p>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="assets/img/img2.jpg" alt="" />
+						<div>
+							<h3>slide 2</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Similique quo aut fugiat quod aperiam! Saepe enim itaque omnis
+								debitis eligendi maxime accusantium sit minus aut labore eaque,
+								incidunt optio explicabo.
+							</p>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="assets/img/img3.jpg" alt="" />
+						<div>
+							<h3>slide 3</h3>
+
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Similique quo aut fugiat quod aperiam! Saepe enim itaque omnis
+								debitis eligendi maxime accusantium sit minus aut labore eaque,
+								incidunt optio explicabo.
+							</p>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="assets/img/img4.jpg" alt="" />
+						<div>
+							<h3>slide 4</h3>
+
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Similique quo aut fugiat quod aperiam! Saepe enim itaque omnis
+								debitis eligendi maxime accusantium sit minus aut labore eaque,
+								incidunt optio explicabo.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slider-btns">
+					<button class="btn">1</button>
+					<button class="btn">2</button>
+					<button class="btn">3</button>
+					<button class="btn">4</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="forms">
+			<form class="form" id="sign-up" action="#" method="get" novalidate>
+				<div class="input-field">
+					<label for="username">Enter User Name</label>
+					<input
+						type="text"
+						id="username"
+						name="username"
+						placeholder="user name"
+					/>
+					<span class="error-message" id="username-error"></span>
+				</div>
+
+				<div class="input-field">
+					<label for="email">Enter Email</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="email"
+						required
+					/>
+					<span class="error-message" id="email-error"></span>
+				</div>
+
+				<div class="input-field">
+					<label for="password">Enter Password</label>
+					<input
+						type="password"
+						id="password"
+						name="password"
+						placeholder="password"
+						minlength="5"
+					/>
+					<span class="error-message" id="password-error"></span>
+				</div>
+
+				<div class="input-field">
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</section>
+
+		<section class="modals">
+			<button class="open-sign-in btn">open sign in</button>
+
+			<div class="modal" id="sign-up-modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>sign-up-modal</h3>
+						<button class="modal-close">X</button>
+					</div>
+					<div class="modal-body">this is modal body</div>
+				</div>
+			</div>
+			<div class="modal" id="sign-up-error-modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>sign-up-error-modal</h3>
+						<button class="modal-close">X</button>
+					</div>
+					<div class="modal-body">this is modal body</div>
+				</div>
+			</div>
+
+			<dialog>
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>dialog-modal</h3>
+						<button class="modal-close">X</button>
+					</div>
+					<div class="modal-body">this is modal body</div>
+				</div>
+			</dialog>
+		</section>
+
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/forms.js"></script>
+	</body>
+</html>
